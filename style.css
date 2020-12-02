@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(59, 75, 104) ;
+    margin: auto;
+    width: 700px;
+
+}
+
+.contenido{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 30px;
+ 
+    font-size: 15px;
+
+}
+
+.unidades{
+    border: solid;
+    padding: 10px;
+    display: flex;
+    padding-right: 20px;
+}
+h1{
+    color: rgb(44, 2, 44);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+}
+
+.ima{
+    margin-left: 100px;
+}
