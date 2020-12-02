@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#009989 ;
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    
+    background-color:#F85931;
+    color: #ffffff;
+    padding: 10px;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header li{
+    margin: 10px;
+}
+
+
+.datosHeader{
+    display: flex;
+    font-size: 20px;
+    
+}
+header img{
+    width: 150px;
+    margin: 20px;
+    border-radius: 40%;
+    border: solid;
+}
+
+nav{
+    background-color: #A3A948;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+
+}
+
+nav ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover{
+    background-color: #056674;
+    font-weight: bold;
+}
+
+
+.contenido{
+    margin-top: 10px;
+    background-color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+.principal{
+    display: flex;
+    margin: 10px;
+}
+
+.principal h3{
+    color: #009989;
+}
+
+section{
+    margin-top: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: #009989;
+    padding: 20px;
+}
+.subtitulo{
+    color: #056674;
+}
+
+aside{
+    width: 110%;
+    margin: 20px;
+    padding: 10px;
+    border-left: dashed;
+
+}
+
+article{
+
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: #CE1836;
+    padding: 20px;
+
+    font-size: 24px;
+	justify-content: space-around;
+}
+
+
+.footer a{
+	color: rgb(55, 148, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+
+.footer a:hover{
+	color:rgb(45, 41, 255);
+}

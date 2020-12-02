@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios html</title>
+</head>
+<body>
+    <form action="a_donde_me_dirijo.html" method="Get">
+        <div>
+            <label for="">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+        </div>
+
+        <div>
+            <label for="">Correo</label>
+            <input type="email" name="correo">
+        </div>
+
+        <div>
+            <label for="">Telefono: </label>
+            <input type="phone" name="Telefono">
+        </div>
+
+        <div>
+            <label for="">Fecha: </label>
+            <input type="date" name="fecha">
+        </div>
+
+        <div>
+            <label for="">Contraseña: </label>
+            <input type="password" name="contra">
+        </div>
+
+        <div>
+            <label for="">Descripcion:</label>
+            <textarea name="descripcion" >Aqui va la desc</textarea>
+        </div>
+
+
+        <div>
+            <label for="">Color</label>
+            <select name="color" id="">
+                <option value="1">Amarillo</option>
+                <option value="2">Rojo</option>
+                <option value="4">Verde</option>
+
+            </select>
+        </div>
+
+        <div>
+            <label for="">Genero</label>
+            <input type="radio" name="genero" value="Masculino" >Masculino
+            <input type="radio" name="genero" value="Femenino">Femenino
+
+
+        </div>
+
+        <div>
+            <label for="">Pasatiempos</label>
+            <input type="checkbox" name="pasatiempos" value="Correr">Correr
+            <input type="checkbox" name="pasatiempos" value="Cantar">Cantar
+
+        </div>
+        <input type="submit" name="boton" value="Enviar">
+    </form>
+    
+</body>
+</html>
