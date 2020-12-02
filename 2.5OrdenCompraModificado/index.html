@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" >
+    
+    <div class="contenido">
+
+
+        <header>
+            <img src="bokutto.png" alt="">
+
+            <h1>Orden de venta</h1>
+        </header>
+
+
+        
+        <div class="principal">
+            <main >
+                
+                <div>
+                    <h2>Producto</h2>
+                    <select name="productos" id="producto">
+                        <option value="Computadora">Computadora</option>
+                        <option value="Celular">Celular</option>
+                        <option value="Laptop">Laptop</option>
+                        <option value="Audifonos">Audifonos</option>
+    
+                    </select>
+                </div>
+    
+               
+                <div>
+                    <h2>Precio</h2>
+                    <input type="number" name="precio" placeholder="Precio del producto"  id="precio" required>
+                </div>
+    
+                <div>
+                    <h2>Unidades</h2>
+                    <input type="number" name="unidades" placeholder="Unidades del producto"  id="unidades" required>
+                </div>
+    
+    
+               <!--<h1 id='prueba'>aaaa</h1> --> 
+                <input class="agregar" type='button' onclick='agregar()' value='Agregar' >
+                
+        
+                <table border="2" id="tabla">
+                    <thead>
+                        <th>Número</th>
+                        <th>Producto</th>
+                        <th>Precio unitario</th>
+                        <th>Unidade</th>
+                        <th>Monto</th>
+                        <th>Eliminar</th>
+                        <th>Modificar</th>
+
+        
+                    </thead>
+        
+                    <tbody id="tbodyy">
+                 
+                    </tbody>
+        
+                    <tfoot id = "tfoot">
+        
+                        <tr>
+                            <th colspan="4" >Subtotal</th>
+                            <th id="subtotal"></th>
+                        </tr>
+                        <tr>
+                            <th colspan="4" >IVA</th>
+                            <th id="iva"></th>
+        
+                        </tr>
+                        <tr>
+                            <th colspan="4" >Total a pagar</th>
+                            <th id="total"></th>
+                        </tr>
+                    </tfoot>
+        
+                </table>
+            </main>
+
+                
+        
+             
+                  
+        
+        
+        
+        
+            
+        </div>
+    </div>
+
+  
+
+
+    
+</body>
+</html>
