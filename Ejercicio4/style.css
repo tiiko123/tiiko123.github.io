@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+body{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(98, 199, 148);
+}
+
+main{
+    background-color: white;
+
+    margin: 30px;
+ 
+
+
+
+}
+
+body>main>p{
+
+    background-color: red;
+    text-align: right;
+    font-size: 50px;
+    height: 100px;
+
+    
+    
+}
+
+button{
+    width: 144px;
+    height: 40px;
+}

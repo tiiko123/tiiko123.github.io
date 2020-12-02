@@ -1,0 +1,16 @@
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.parrafo{
+    color: rgb(255, 0, 76);
+    text-align: center;
+}
+
+body{
+    width: 700px;
+    padding: 50px;
+    margin: auto;
+}
