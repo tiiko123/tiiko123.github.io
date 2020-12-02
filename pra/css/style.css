@@ -1,0 +1,56 @@
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(59, 0, 35, 0.931);
+}
+
+#banner{
+    width: 100%;
+    height: 200px;
+}
+.contenido{
+    background-color: white;
+    padding: 10px;
+
+}
+
+p{
+    text-align: justify;
+}
+
+.titulosPrincipales{
+    font-size: 40px;
+    color: rgba(59, 0, 35, 0.931);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: gray 2px 1px;
+}
+
+.subtitulos{
+    font-size: 25px;
+    color: rgb(144, 3, 73);
+    text-transform: capitalize;
+    text-align:left;
+    text-decoration: underline;
+}
+
+a{
+    margin-right: 20px;
+}
+
+.moviles{
+    display: flex;
+    margin: 10px;
+    border:dashed;
+    border-color: rgba(59, 0, 35, 0.931);
+    background-color: rgb(255, 0, 55);
+    border-radius: 30px;
+    color: white;
+}
+
+.moviles img{
+    width: 30%;
+    border-radius: 30px;
+    margin: 30px;
+
+}
